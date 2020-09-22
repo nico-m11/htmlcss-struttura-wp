@@ -3,8 +3,27 @@
   margin: 0;
   padding: 0;
 }
-html {
-  background-image: url("img/natural-pattern.png");
+
+
+body {
+  background-image: url("img/natural-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  border: 5px white solid;
+  margin-top: 10px;
 }
 
-body 
+.logo {
+  display: block;
+
+}
+
+.img-header {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+}
