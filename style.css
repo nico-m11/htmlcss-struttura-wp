@@ -6,24 +6,34 @@
 
 
 body {
-  background-image: url("img/natural-header.jpg");
+  background-image: url("img/natural-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-  border: 5px white solid;
-  margin-top: 10px;
 }
 
 .logo {
   display: block;
 
+
 }
 
 .img-header {
   text-align: center;
+  height: 500px;
+  background-image: url("img/natural-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px white solid;
+  margin-top: 10px;
 }
 
 h2 {
   color: white;
   font-size: 45px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
