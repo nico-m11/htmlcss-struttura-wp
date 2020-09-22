@@ -35,5 +35,58 @@ h2 {
 
 .container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 500px;
+  overflow: hidden;
+}
+.nav-bar {
+  background-color: gray;
+  text-align: center;
+}
+
+
+ul.menu li {
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 10px;
+}
+
+ul.menu li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.col {
+  width: 33%;
+  float: left;
+  padding: 15px;
+  margin: auto;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-1-of-3 {
+  width: 20%
+  display: inline-table;
+
+}
+
+.col-2-of-3{
+  width: 20%;
+  margin: auto;
+
+}
+.col-3-of-3 {
+  width: 20%
+}
+.box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: right;
 }
