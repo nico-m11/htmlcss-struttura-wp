@@ -3,19 +3,18 @@
   margin: 0;
   padding: 0;
 }
-
-
+/* testata*/
 body {
   background-image: url("img/natural-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
 }
-
+/*logo*/
 .logo {
   display: block;
 
-
+/*header*/
 }
 
 .img-header {
@@ -32,7 +31,7 @@ h2 {
   color: white;
   font-size: 45px;
 }
-
+/*main*/
 .container {
   max-width: 1000px;
   margin: 0 500px;
@@ -92,7 +91,7 @@ ul.menu li a {
   border-radius: 25px;
   float: right;
 }
-
+/*footer*/
 footer {
   text-align: center;
   height: 100px;
@@ -101,4 +100,16 @@ footer {
   background-size: cover;
   border: 5px white solid;
   margin: 0 500px;
+}
+
+.fb {
+  float: left;
+}
+
+.git {
+  float: right;
+}
+
+footer {
+  margin-top: 20px;
 }
